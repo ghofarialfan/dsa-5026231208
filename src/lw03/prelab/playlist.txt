@@ -1,0 +1,5 @@
+ADD Attention
+ADD OMG
+ADD Ditto
+INSERT 1 Hype Boy
+ADD ETA
