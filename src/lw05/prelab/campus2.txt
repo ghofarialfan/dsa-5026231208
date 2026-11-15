@@ -1,0 +1,12 @@
+6
+Gerbang Parkir Kantin Aula Lab Studio
+8
+0 1 2
+0 2 6
+1 3 7
+2 4 3
+1 2 3
+3 5 4
+4 5 2
+4 3 1
+0 5
