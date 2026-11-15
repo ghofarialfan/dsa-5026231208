@@ -112,21 +112,7 @@ public class Main {
 
     public static void main(String[] args) {
         String fileName = args.length > 0 ? args[0] : "campus.txt";
-        java.io.File inputFile = new java.io.File(fileName);
-        if (!inputFile.exists()) {
-            java.io.File[] candidates = {
-                new java.io.File("src/lw05/prelab/" + fileName),
-                new java.io.File("lw05/prelab/" + fileName)
-            };
-            for (java.io.File candidate : candidates) {
-                if (candidate.exists()) {
-                    inputFile = candidate;
-                    break;
-                }
-            }
-        }
-
-        try (Scanner scanner = new Scanner(inputFile)) {
+        try (Scanner scanner = new Scanner(new java.io.File(fileName))) {
             size = scanner.nextInt();
             names = new String[size];
             for (int i = 0; i < size; i++) {
