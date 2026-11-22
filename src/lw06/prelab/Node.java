@@ -1,5 +1,3 @@
-package lw06.prelab;
-
 class Node {
     int data;
     Node left;
